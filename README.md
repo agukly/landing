@@ -1,9 +1,9 @@
-#LANDING PAGE
+# LANDING PAGE
 Example of a landing page for a web design company
 
 ## Getting Started
 
-![alt text](https://github.com/agukly/landing/blob/master/images/sample.png?raw=true)
+![alt text](https://github.com/agukly/landing/blob/master/images/sample.jpg?raw=true)
 
 ### Installing
 Clone the project to your local machine and enjoy

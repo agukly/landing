@@ -2,46 +2,56 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My landing page</title>
+  <title>Landing page</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- code a Hero / Banner section -->
-<div class="banner" style="background-image: url(images/banner.jpg)">
-  <img src="images/logo.jpg" class="logo-small logo-position"alt="">
-  <div class="banner-card">
-    <h1>We will design, create and promote your web-site!</h1>
-    <h2>With us you can change your web-site and bring new life to your business.</h2>
-    <a href="" class="btn-contact">Contact us!</a>
+
+
+<div class="navbar">
+  <div class="navbar-left">
+    <img src="images/logo.jpg" class="logo-small logo-position"alt="">
+  </div>
+  <div class="navbar-right">
+    <p>Home</p>
+    <p>About Us</p>
+    <p>Services</p>
+    <p>Contact</p>
   </div>
 </div>
-  <!-- code a "How it works" section -->
+
+<div class="banner" style="background-image: url(images/banner.jpg)">
+  <div class="banner-card">
+    <h1>We will design, create and promote your website!</h1>
+    <h2>change your website and bring new life to your business</h2>
+    <a href="" class="btn-contact">contact us</a>
+  </div>
+</div>
+
 <div class="how-we-work-card">
   <h2>What we do:</h2>
   <div class="container-for-cards">
     <div class="card">
       <img src="images/design.svg" alt="">
-      <h3>Design</h3>
-      <p>We will design your site following current trends</p>
+      <h3 id="design">Design</h3>
+      <p>Current trends along with your strategic goal will shape your design</p>
     </div>
 
     <div class="card">
       <img src="images/create.svg" alt="">
       <h3>Create</h3>
-      <p>We will build it from scratch</p>
+      <p>No templates here. All sites are custom built from the ground up</p>
     </div>
 
     <div class="card">
-      <img src="images/promote.svg" alt="">
-      <h3>Promote</h3>
-      <p>We will make sure your SEO is on point</p>
+      <img id="promote-img" src="images/promote.svg" alt="">
+      <h3 id="promote">Promote</h3>
+      <p>When was the last time you went to page 2 in Google? We will make sure your SEO is on point</p>
     </div>
   </div>
 </div>
-  <!-- code a footer -->
 
 <div class="footer-card" style="background-color: #E7C1AE; height: 150px";>
   <div class="social-media">

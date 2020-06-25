@@ -1,5 +1,5 @@
 #LANDING PAGE
-Example of a landing page for a web design company.
+Example of a landing page for a web design company
 
 ## Getting Started
 

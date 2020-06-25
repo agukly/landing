@@ -1,16 +1,15 @@
 .btn-contact {
   text-decoration: none;
   color: white;
-  background-color: #6BD58B;
-  border-radius: 4px;
+  background-color: #496F98;
+  border-radius: 25px;
   padding: 15px 25px;
   font-weight: bold;
-  transition: background 0.3s ease;
   display: inline-block;
   margin-top: 30px;
-  margin-left: 35px;
 }
 
 .btn-contact:hover {
-  background-color: #3AC262;
+  background-color: #496f98a8;
+  transition: background 0.4s ease;
 }
